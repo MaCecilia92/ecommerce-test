@@ -18,7 +18,7 @@ export default function SearchSuggestions({
   onProductClick,
   isVisible
 }: SearchSuggestionsProps) {
-  if (!isVisible || (categories.length === 0 && relatedTerms.length === 0 && popularProducts.length === 0)) {
+  if (!isVisible) {
     return null;
   }
 
