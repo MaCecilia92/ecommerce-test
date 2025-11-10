@@ -1,0 +1,12 @@
+/* Global styles import */
+
+/* Components */
+@import './components/Header.module.css';
+@import './components/SearchSuggestions.module.css';
+@import './components/ErrorPage.module.css';
+@import './components/LoadingError.module.css';
+@import './components/LoadingSpinner.module.css';
+
+/* Pages */
+@import './pages/Home.module.css';
+@import './pages/ProductDetail.module.css';

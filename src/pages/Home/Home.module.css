@@ -1,0 +1,132 @@
+/* Home Page Styles */
+
+/* Container principal */
+.home-container {
+  @apply container mx-auto px-4 py-8;
+}
+
+/* Hero Section */
+.hero-section {
+  @apply text-center space-y-6 mb-16;
+}
+
+.hero-title {
+  @apply text-4xl md:text-6xl font-bold text-foreground;
+}
+
+.hero-description {
+  @apply text-xl text-muted-foreground max-w-2xl mx-auto;
+}
+
+/* Search Bar */
+.search-wrapper {
+  @apply max-w-2xl mx-auto mb-12;
+}
+
+.search-container {
+  @apply relative;
+}
+
+.search-input {
+  @apply w-full px-4 py-3 pl-12 text-lg bg-background border border-input rounded-lg 
+         focus:outline-none focus:ring-2 focus:ring-ring focus:border-transparent;
+}
+
+.search-icon-wrapper {
+  @apply absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none;
+}
+
+.search-icon {
+  @apply h-5 w-5 text-muted-foreground;
+}
+
+.search-results-count {
+  @apply mt-2 text-sm text-muted-foreground;
+}
+
+/* Products Grid */
+.products-section {
+  @apply mt-8;
+}
+
+.products-grid {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6;
+}
+
+/* Product Card */
+.product-card-link {
+  @apply block;
+}
+
+.product-card {
+  @apply bg-card border rounded-lg p-6 cursor-pointer
+         hover:shadow-lg hover:scale-[1.02]
+         transition-all duration-200;
+}
+
+.product-image-container {
+  @apply bg-muted h-48 rounded-lg mb-4 flex items-center justify-center overflow-hidden;
+}
+
+.product-image {
+  @apply w-full h-full object-contain 
+         transition-transform duration-200;
+}
+
+.product-card:hover .product-image {
+  @apply scale-105;
+}
+
+.product-title {
+  @apply text-xl font-semibold mb-2 line-clamp-2
+         transition-colors;
+}
+
+.product-card:hover .product-title {
+  @apply text-primary;
+}
+
+.product-category {
+  @apply text-sm text-muted-foreground mb-2 capitalize;
+}
+
+.product-description {
+  @apply text-muted-foreground mb-4 line-clamp-2;
+}
+
+.product-footer {
+  @apply flex justify-between items-center;
+}
+
+.product-price {
+  @apply text-2xl font-bold text-primary;
+}
+
+.product-rating {
+  @apply flex items-center gap-1;
+}
+
+.product-rating-star {
+  @apply text-yellow-500;
+}
+
+.product-rating-value {
+  @apply text-sm font-medium;
+}
+
+/* No Results */
+.no-results-container {
+  @apply text-center py-12;
+}
+
+.no-results-icon {
+  @apply text-6xl mb-4;
+}
+
+.no-results-title {
+  @apply text-2xl font-semibold mb-2;
+}
+
+.no-results-description {
+  @apply text-muted-foreground;
+}

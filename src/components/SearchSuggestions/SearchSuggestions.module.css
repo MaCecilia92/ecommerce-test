@@ -1,0 +1,94 @@
+/* Search Suggestions Component */
+
+.suggestions-container {
+  @apply absolute top-full left-0 right-0 bg-background border border-input 
+         rounded-lg shadow-lg z-50 mt-1 max-h-96 overflow-y-auto;
+}
+
+/* Categories Section */
+.suggestions-section {
+  @apply p-4 border-b;
+}
+
+.suggestions-section:last-child {
+  @apply border-b-0;
+}
+
+.section-title {
+  @apply text-sm font-semibold text-muted-foreground mb-2;
+}
+
+.category-list {
+  @apply space-y-1;
+}
+
+.category-item {
+  @apply block w-full text-left px-3 py-2 text-sm capitalize
+         hover:bg-muted rounded-md transition-colors;
+}
+
+/* Related Terms Section */
+.related-terms-container {
+  @apply flex flex-wrap gap-2;
+}
+
+.related-term-pill {
+  @apply px-3 py-1 text-sm bg-muted rounded-full
+         hover:bg-accent transition-colors;
+}
+
+/* Popular Products Section */
+.popular-products-list {
+  @apply space-y-2;
+}
+
+.popular-product-item {
+  @apply flex items-center w-full text-left p-2 
+         hover:bg-muted rounded-md transition-colors;
+}
+
+.popular-product-image {
+  @apply w-10 h-10 object-contain rounded mr-3 flex-shrink-0;
+}
+
+.popular-product-content {
+  @apply flex-1 min-w-0;
+}
+
+.popular-product-title {
+  @apply text-sm font-medium line-clamp-1 
+         transition-colors;
+}
+
+.popular-product-item:hover .popular-product-title {
+  @apply text-primary;
+}
+
+.popular-product-details {
+  @apply flex items-center gap-2 mt-1;
+}
+
+.popular-product-price {
+  @apply text-sm font-semibold text-primary;
+}
+
+.popular-product-rating {
+  @apply flex items-center gap-1;
+}
+
+.popular-product-star {
+  @apply text-yellow-500 text-xs;
+}
+
+.popular-product-rating-value {
+  @apply text-xs text-muted-foreground;
+}
+
+/* No Suggestions */
+.no-suggestions {
+  @apply p-4 text-center text-muted-foreground;
+}
+
+.no-suggestions-text {
+  @apply text-sm;
+}

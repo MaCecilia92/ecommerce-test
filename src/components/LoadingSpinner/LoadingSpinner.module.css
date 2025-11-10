@@ -1,0 +1,53 @@
+/* Loading Spinner Component */
+
+.pageContainer {
+  @apply container mx-auto px-4 py-8;
+}
+
+.loadingContent {
+  @apply text-center py-12;
+}
+
+.loadingIcon {
+  @apply animate-pulse mb-4;
+}
+
+.iconSm {
+  @apply text-4xl;
+}
+
+.iconMd {
+  @apply text-6xl;
+}
+
+.iconLg {
+  @apply text-8xl;
+}
+
+.loadingTitle {
+  @apply font-semibold mb-2;
+}
+
+.titleSm {
+  @apply text-lg;
+}
+
+.titleMd {
+  @apply text-2xl;
+}
+
+.titleLg {
+  @apply text-3xl;
+}
+
+.loadingSubtitle {
+  @apply text-muted-foreground;
+}
+
+.spinnerContainer {
+  @apply mt-6 flex justify-center;
+}
+
+.spinner {
+  @apply animate-spin rounded-full h-8 w-8 border-b-2 border-primary;
+}

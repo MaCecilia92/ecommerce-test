@@ -1,0 +1,110 @@
+/* Error Page Component */
+
+.pageContainer {
+  @apply container mx-auto px-4 py-8;
+}
+
+.backButtonContainer {
+  @apply mb-6;
+}
+
+.backButton {
+  @apply text-primary hover:underline;
+}
+
+.errorContent {
+  @apply text-center py-12;
+}
+
+.errorMessage {
+  @apply mb-8;
+}
+
+.errorIcon {
+  @apply text-8xl mb-4;
+}
+
+.errorTitle {
+  @apply text-4xl font-bold text-foreground mb-4;
+}
+
+.errorDescription {
+  @apply text-xl text-muted-foreground max-w-md mx-auto mb-8;
+}
+
+.actionButtons {
+  @apply flex flex-col sm:flex-row gap-4 justify-center;
+}
+
+.homeButton {
+  @apply w-full sm:w-auto;
+}
+
+.retryButton {
+  @apply w-full sm:w-auto;
+}
+
+.helpGrid {
+  @apply mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto;
+}
+
+.helpCard {
+  @apply text-center p-6 bg-card border rounded-lg;
+}
+
+.helpIcon {
+  @apply text-3xl mb-3;
+}
+
+.helpTitle {
+  @apply font-semibold mb-2;
+}
+
+.helpDescription {
+  @apply text-sm text-muted-foreground;
+}
+
+.error-icon {
+  @apply text-8xl mb-4;
+}
+
+.error-title {
+  @apply text-4xl font-bold text-foreground mb-4;
+}
+
+.error-description {
+  @apply text-xl text-muted-foreground max-w-md mx-auto mb-8;
+}
+
+.error-actions {
+  @apply flex flex-col sm:flex-row gap-4 justify-center;
+}
+
+.error-button-primary {
+  @apply w-full sm:w-auto;
+}
+
+.error-button-secondary {
+  @apply w-full sm:w-auto;
+}
+
+/* Help Cards */
+.help-cards-container {
+  @apply mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto;
+}
+
+.help-card {
+  @apply text-center p-6 bg-card border rounded-lg;
+}
+
+.help-card-icon {
+  @apply text-3xl mb-3;
+}
+
+.help-card-title {
+  @apply font-semibold mb-2;
+}
+
+.help-card-description {
+  @apply text-sm text-muted-foreground;
+}

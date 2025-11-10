@@ -1,0 +1,41 @@
+/* Loading Error Component */
+
+.pageContainer {
+  @apply container mx-auto px-4 py-8;
+}
+
+.backButtonContainer {
+  @apply mb-6;
+}
+
+.backButton {
+  @apply text-primary hover:underline;
+}
+
+.errorContent {
+  @apply text-center py-12;
+}
+
+.errorIcon {
+  @apply text-6xl mb-4;
+}
+
+.errorTitle {
+  @apply text-2xl font-semibold mb-2;
+}
+
+.errorMessage {
+  @apply text-muted-foreground mb-6 max-w-md mx-auto;
+}
+
+.actionButtons {
+  @apply flex flex-col sm:flex-row gap-4 justify-center;
+}
+
+.retryButton {
+  @apply w-full sm:w-auto;
+}
+
+.homeButton {
+  @apply w-full sm:w-auto;
+}

@@ -1,0 +1,45 @@
+/* Header Component */
+
+.header {
+  @apply sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur 
+         supports-[backdrop-filter]:bg-background/60;
+}
+
+.headerContainer {
+  @apply container mx-auto px-4;
+}
+
+.headerContent {
+  @apply flex h-16 items-center justify-between;
+}
+
+/* Logo Section */
+.logoSection {
+  @apply flex items-center;
+}
+
+.logoLink {
+  @apply flex items-center space-x-2;
+}
+
+.logoIcon {
+  @apply w-8 h-8 bg-primary rounded-lg flex items-center justify-center;
+}
+
+.logoText {
+  @apply text-primary-foreground font-bold;
+}
+
+.logoTitle {
+  @apply font-bold text-xl;
+}
+
+/* Navigation */
+.navigation {
+  @apply hidden md:flex items-center space-x-6;
+}
+
+/* Actions */
+.actions {
+  @apply flex items-center space-x-4;
+}

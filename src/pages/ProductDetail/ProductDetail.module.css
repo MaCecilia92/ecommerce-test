@@ -1,0 +1,90 @@
+/* Product Detail Page Styles */
+
+.pageContainer {
+  @apply container mx-auto px-4 py-8;
+}
+
+.backButtonContainer {
+  @apply mb-6;
+}
+
+.backButton {
+  @apply text-primary hover:underline;
+}
+
+/* Product Layout */
+.productGrid {
+  @apply grid grid-cols-1 lg:grid-cols-2 gap-8;
+}
+
+/* Product Image Section */
+.imageSection {
+  @apply space-y-4;
+}
+
+.productImage {
+  @apply w-full h-96 object-contain rounded-lg border;
+}
+
+/* Product Info Section */
+.infoSection {
+  @apply space-y-6;
+}
+
+.productTitle {
+  @apply text-3xl font-bold text-foreground mb-2;
+}
+
+.productPrice {
+  @apply text-2xl font-semibold text-primary mb-2;
+}
+
+.metaInfo {
+  @apply flex items-center gap-2 mb-4;
+}
+
+.category {
+  @apply text-sm text-muted-foreground capitalize;
+}
+
+.separator {
+  @apply text-muted-foreground;
+}
+
+.rating {
+  @apply flex items-center gap-1;
+}
+
+.star {
+  @apply text-yellow-500;
+}
+
+.ratingValue {
+  @apply text-sm font-medium;
+}
+
+.reviewCount {
+  @apply text-sm text-muted-foreground;
+}
+
+/* Description Section */
+.descriptionTitle {
+  @apply text-lg font-semibold mb-2;
+}
+
+.description {
+  @apply text-muted-foreground leading-relaxed;
+}
+
+/* Availability Section */
+.availabilitySection {
+  @apply border-t pt-6;
+}
+
+.availability {
+  @apply mt-4 text-sm text-muted-foreground;
+}
+
+.availableText {
+  @apply text-green-600;
+}
